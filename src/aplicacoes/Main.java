@@ -20,5 +20,7 @@ public class Main {
         System.out.printf("Área: %.2f", retangulo.area());
         System.out.printf("\nPerímetro: %.2f", retangulo.perimetro());
         System.out.printf("\nPerímetro: %.2f", retangulo.diagonal());
+
+        scanner.close();
     }
 }
